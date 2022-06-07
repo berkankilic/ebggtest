@@ -1,0 +1,55 @@
+/* .offcanvas-backdrop.show {
+  opacity: 1 !important;
+  animation-duration: 700ms;
+}
+
+.offcanvas-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0c0e13;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  width: 10px;
+  background: #272a30;
+  border: 4px solid #0c0e13;
+  border-radius: 99px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.mainherobg {
+  background: radial-gradient(
+    128.3% 240.56% at 50% -100%,
+    rgba(14, 16, 21, 0) 0%,
+    rgb(14, 16, 21) 80%
+  ) !important;
+}
+
+.scrollspy-example {
+  position: relative;
+  height: 200px;
+  overflow: auto;
+}
+
+.footer-hr hr {
+  color: #13151b;
+}

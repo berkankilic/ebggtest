@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@layer components {
+  .body {
+    @apply bg-white text-white min-h-screen dark:bg-main-bg;
+  }
+
+  ::selection {
+    @apply bg-primary text-dark-strong-2;
+  }
+
+  .offcanvas-backdrop {
+    @apply blur-sm bg-main-bg;
+  }
+
+  .offcanvas-backdrop.show {
+    @apply opacity-100 duration-200;
+  }
+
+  .testclass {
+    @apply relative grid grid-flow-row gap-10 font-semibold text-[#E2E4E9]  text-2xl pt-8;
+  }
+
+  .display-none {
+    @apply hidden;
+  }
+
+  .footer-links li {
+    @apply text-tdark-3 text-[13px] pb-5;
+  }
+
+  .footer-links-title {
+    @apply !text-white uppercase !pb-10;
+  }
+
+  html {
+    font-family: "Jost", sans-serif;
+    scroll-behavior: smooth;
+  }
+}
